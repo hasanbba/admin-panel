@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Admin Panel - IT Assistance Bangladesh</title>
+		<link rel="stylesheet" href="vendor/datatable/datatables.css" />
+		<link rel="stylesheet" href="vendor/fontawesome-free-5.7.2-web/css/all.css" />
+		<link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- sidebar-area -->
+					<section class="sidebar-area" id="sidebar-area">
+						<div class="site-title" id="site-title">
+							<h1>IT Assistance</h1>
+						</div>
+						<div class="sidebar">
+							<div class="side-nav" id="side-nav">
+								<nav class="navbar">
+									<ul class="nav navbar-nav">
+										<li>
+											<a href="index.html">
+												<span><i class="fas fa-home"></i></span>
+												<span>Dashboard</span>
+											</a>
+										</li>
+    
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+												<span><i class="fas fa-table"></i></span> 
+												<span>Table's</span> 
+											</a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="data-table.html">Data Table</a></li>
+												<li><a href="table-basic.html">Basic Table</a></li>
+												<li><a href="#">Editable Table</a></li>        
+											</ul>
+										</li>
+
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+												<span><i class="fas fa-table"></i></span> 
+												<span>Table's</span> 
+											</a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="font.html">Data Table</a></li>
+												<li><a href="component.html">Basic Table</a></li>
+												        
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</section> <!-- end-section-area -->
+					<!-- content-area -->
+					<section class="content-area" id="content-area">
+						<div class="top-bar">
+							<button onclick="sidebarToggle()"><i class="fas fa-align-justify"></i></button>
+						</div>
+						<div class="content">
+							<div class="row">
+								<div class="col-lg-12">
+									<nav aria-label="breadcrumb">
+										<ol class="breadcrumb">
+											<li class="breadcrumb-item"><a href="#">Home</a></li>
+											<li class="breadcrumb-item"><a href="#">Library</a></li>
+											<li class="breadcrumb-item active" aria-current="page">Data</li>
+										</ol>
+									</nav>
+								</div>
+							</div>
+
+
+
+							<div class="row">
+								<div class="col-md-12">
+									
+									<table class="table table-bordered table-dark" id="example">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Position</th>
+												<th>Office</th>
+												<th>Age</th>
+												<th>Start date</th>
+												<th>Salary</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Tiger Nixon</td>
+												<td>System Architect</td>
+												<td>Edinburgh</td>
+												<td>61</td>
+												<td>2011/04/25</td>
+												<td>$320,800</td>
+											</tr>
+											<tr>
+												<td>Garrett Winters</td>
+												<td>Accountant</td>
+												<td>Tokyo</td>
+												<td>63</td>
+												<td>2011/07/25</td>
+												<td>$170,750</td>
+											</tr>
+											<tr>
+												<td>Ashton Cox</td>
+												<td>Junior Technical Author</td>
+												<td>San Francisco</td>
+												<td>66</td>
+												<td>2009/01/12</td>
+												<td>$86,000</td>
+											</tr>
+											<tr>
+												<td>Cedric Kelly</td>
+												<td>Senior Javascript Developer</td>
+												<td>Edinburgh</td>
+												<td>22</td>
+												<td>2012/03/29</td>
+												<td>$433,060</td>
+											</tr>
+											<tr>
+												<td>Airi Satou</td>
+												<td>Accountant</td>
+												<td>Tokyo</td>
+												<td>33</td>
+												<td>2008/11/28</td>
+												<td>$162,700</td>
+											</tr>
+											<tr>
+												<td>Brielle Williamson</td>
+												<td>Integration Specialist</td>
+												<td>New York</td>
+												<td>61</td>
+												<td>2012/12/02</td>
+												<td>$372,000</td>
+											</tr>
+										</tbody>
+									</table>
+
+
+
+								</div>
+							</div>
+
+
+						</div><!--content end-->
+
+						<!-- footer section -->
+						<footer>
+							<p>Design By <a href="https://itassistancebd.com">IT Assistance</a></p>
+						</footer> <!-- footer section end -->
+					</section> <!-- end-section-area -->
+					
+				</div> <!-- end row area -->
+			</div>	<!-- end container area -->
+		</div> <!-- end wrapper area -->
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="vendor/datatable/datatables.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
